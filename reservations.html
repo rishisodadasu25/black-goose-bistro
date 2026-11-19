@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Book a Table</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br>
+
+        <label>Contact:</label>
+        <input type="tel" name="contact" required>
+        <br>
+
+        <label>Date:</label>
+        <input type="date" name="date" required>
+        <br>
+
+        <label>Time:</label>
+        <input type="time" name="time" required>
+        <br>
+
+        <label>Number of Guests:</label>
+        <input type="number" name="guests" min="1" required>
+        <br>
+
+        <input type="submit" value="Book Table">
+    </form>
+
+</body>
+</html>

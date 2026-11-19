@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial;
+    background-color: #fff8ed;
+    color: #333333;
+    margin: 25px;
+}
+
+h1 {
+    color: #713b22;
+}
+
+nav {
+    background-color: #713b22;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #713b22;
+    padding: 10px;
+    text-align: left;
+}
+
+input, select {
+    margin: 8px;
+    padding: 6px;
+}
